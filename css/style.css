@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -15,55 +16,53 @@ a {
 header{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    flex-wrap: wrap;
-}
-.nav-gral {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-}
+    background-color: #f1b7704d;
+   }
 
 .logo img {
-    margin: 10px;
-    height: 20dvh;
-    border-radius: 50%;
+       height:30dvh;
+       border-radius: 5px;
+  margin-top: 10px;
 }
 
-.nav-pages {
+.nav{
     display: flex;
-
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
 }
-
-.menu-list {
-    background: black;
-    color: blueviolet;
-    font-size: medium;
-    font-weight: bold;
+.nav-gral{
+    width: 70%;
     display: flex;
+    align-items: center;}
+.nav-pages{
+    display: flex;
+    width: 100%;
     flex-wrap: wrap;
+}
+.menu-list {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
     list-style-type: none;
     overflow: hidden;
 }
 
-.nav-links ul {
+.menu-list ul {
     text-decoration: none;
-
+    list-style-type: none;
 }
 
 li {
     margin: 10px;
-    gap: 10px;
+   
 }
 
 /* main */
 
-main {
+.main {
     display: flex;
-}
+ }
 .hamburger{
     display: none;
 }
@@ -89,9 +88,8 @@ main {
         height: 100dvh;
         justify-content: center;
         gap: 2rem;
-        background: rgba(0, 0, 0, 0.436);
-        color: blueviolet;
-        width: 100%;
+        background:  #f1b7704d;
+         width: 100%;
         position: fixed;
         top: 0;
         right: 0;
@@ -103,9 +101,9 @@ main {
         backdrop-filter: blur(13px);
     }
     .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
-              background-color: #c71dc4;
+              background-color: #f29727;
     }
     .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before {
-        background-color: #c71dc4;
+        background-color: #f29727;
     }
 }
