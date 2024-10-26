@@ -89,11 +89,11 @@ li {
         justify-content: center;
         gap: 2rem;
         background:  #f1b7704d;
-         width: 100%;
+        width: 100%;
         position: fixed;
         top: 0;
         right: 0;
-        transform: translate(100%,0);
+        transform: translateX(745px);
         transition: .4s ease-in-out;
     }
     .panel.is-active{
