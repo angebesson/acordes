@@ -28,7 +28,7 @@ header{
 .nav{
     display: flex;
     width: 80%;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 }
 .nav-gral{
@@ -41,6 +41,7 @@ header{
     flex-wrap: wrap;
 }
 .menu-list {
+    display: flex;
     color: black;
     font-size: 18px;
     font-weight: bold;
@@ -75,9 +76,7 @@ li {
     .hamburger{
         display: block;
     }
-    /* header {
-        height: 12dvh;
-    } */
+    
     .nav-gral {
         width: auto;
     
