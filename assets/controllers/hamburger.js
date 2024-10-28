@@ -13,7 +13,8 @@ export default function menuHamburger(btnHamburger,panel,menuLink){
             document.querySelector(btnHamburger).classList.remove("is-active");
         }
         if(panelIsActive.classList.contains("is-active")){
-            headerBg.classList.remove("blur")
+            headerBg.classList.remove("blur");
+            
         }else{
             headerBg.classList.add("blur")
         }
