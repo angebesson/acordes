@@ -124,3 +124,12 @@ li {
         background-color: #f29727;
     }
 }
+
+@media (max-width:655px){
+    .logo img {
+        height:70px;
+        width: auto;
+        border-radius: 5px;
+      margin-top: 10px;
+ }
+}
