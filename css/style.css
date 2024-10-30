@@ -23,8 +23,8 @@ header{
 .logo img {
        height:20dvh;
        width: auto;
-       border-radius: 5px;
-     margin-top: 10px;
+       border-radius: 5px 35px 35px 5px;
+     margin: 10px;
 }
 
 .nav{
@@ -67,6 +67,7 @@ li {
 
 .main {
     display: flex;
+    height: 100dvh;
  }
 
 
@@ -78,6 +79,22 @@ li {
     width: 100%;
     bottom: 0%;
     text-align: center;
+    list-style-type: none;
+    background-color: #f1b7704d;
+ }
+ h3{
+    color: #b8731e;
+ }
+ .footer-redes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    font-size: 30px;
+ }
+ .menu-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     list-style-type: none;
  }
 /* responsive */
@@ -127,9 +144,9 @@ li {
 
 @media (max-width:655px){
     .logo img {
-        height:70px;
+        height:80px;
         width: auto;
-        border-radius: 5px;
-      margin-top: 10px;
+        border-radius: 5px 35px 35px 5px;
+      margin: 10px;
  }
 }
