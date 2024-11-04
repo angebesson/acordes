@@ -412,7 +412,7 @@ h3 {
         background: #f5bb7435;
         width: 95%;
         position: fixed;
-        top:27%;
+        top:80px;
         z-index: 2000;
         right: 0;
         display: none;
