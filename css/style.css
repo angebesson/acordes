@@ -368,7 +368,7 @@ h3 {
   
 } */
 @media (max-width:768px) {
-    .item .content {
+   .list .item .content {
         left: 50px;
     }
 
@@ -441,7 +441,7 @@ h3 {
 
 @media (max-width:655px) {
 
-    .item .content {
+  .list .item .content {
         top: 40%;
     }
 
