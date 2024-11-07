@@ -153,7 +153,24 @@ h3 {
     list-style-type: none;
    
 }
+/*REclamos*/
+.slider{
+    aspect-ratio: 10 / 16;
+    width: 300px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+.slider img{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    
+    border-radius: 5px;
+    scroll-snap-align: center;
 
+}
 /*festiDamus* carousel*/
 
 .carousel {
