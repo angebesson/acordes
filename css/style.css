@@ -37,6 +37,7 @@ header {
     width: auto;
     border-radius: 5px 35px 35px 5px;
     margin: 10px;
+    padding-bottom: 7px;
 }
 
 .nav {
@@ -273,10 +274,11 @@ h3 {
 
 .content .name {
     font-size: 100px;
+    color: #faba6b;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1;
-    text-shadow: 3px 4px 7px rgba(255, 255, 255, 0.8);
+    text-shadow: 3px 4px 7px rgba(255, 255, 255, 0.943);
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
 }
@@ -286,7 +288,7 @@ h3 {
     margin-bottom: 20px;
     font-size: 18px;
     margin-left: 5px;
-
+    color: #432909;
     opacity: 0;
     animation: animate 1s ease-in-out 0.9s 1 forwards;
 }
@@ -301,6 +303,7 @@ h3 {
 .content .btn button {
     padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     border: 2px solid #fafafa;
