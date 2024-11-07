@@ -171,6 +171,18 @@ h3 {
     scroll-snap-align: center;
 
 }
+.slider-button{
+    position: absolute;
+    top: 80%;
+    right: 28%;
+    z-index: 100;
+    width: 300px;
+    max-width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
 /*festiDamus* carousel*/
 
 .carousel {
