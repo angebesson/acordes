@@ -159,17 +159,20 @@ h3 {
     width: 300px;
     position: relative;
     display: flex;
+    border-radius: 15px;
     overflow: scroll;
     scroll-snap-type: x mandatory;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .slider img{
     width: 100%;
     left: 0;
     position: sticky;
-    
-    border-radius: 5px;
+    border-radius: 15px;
     scroll-snap-align: center;
-
+    
 }
 .slider-button{
     position: absolute;
