@@ -86,6 +86,7 @@ li {
 /* main */
 h2 {
     color: #b8731e;
+    margin: 10px;
 }
 
 .main {
@@ -131,6 +132,7 @@ footer {
     position: static;
     width: 100%;
     bottom: 0%;
+    padding-top: 10px;
     text-align: center;
     list-style-type: none;
     background-color: #f1b7704d;
